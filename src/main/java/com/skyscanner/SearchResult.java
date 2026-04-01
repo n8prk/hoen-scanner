@@ -13,9 +13,7 @@ public class SearchResult {
     @JsonProperty
     private String kind;
 
-    public Search SearchResult() {
-        return null;
-    }
+    public SearchResult() {}
 
     public SearchResult(String city, String title, String kind) {
         this.city = city;

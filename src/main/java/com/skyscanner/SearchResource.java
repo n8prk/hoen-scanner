@@ -16,7 +16,7 @@ import java.util.List;
 @Produces(MediaType.APPLICATION_JSON) // Responses
 public class SearchResource {
     List<SearchResult> searchResults;
-    public Search Resource(List<SearchResult> searchResults) { this.searchResults = searchResults; }
+    public SearchResource(List<SearchResult> searchResults) { this.searchResults = searchResults; }
 
     @POST
     public List<SearchResult> search(@NotNull @Valid Search search) {
