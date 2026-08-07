@@ -10,6 +10,8 @@ public class Search {
      */
     @JsonProperty
     private String city;
+    private String kind;
+    private String title;
 
     public Search() {
 
@@ -18,5 +20,7 @@ public class Search {
     public Search(String city) { this.city = city; }
 
     public String getCity() { return city;  }
+    public String getKind() { return kind; }
+    public String getTitle() { return title; }
 
 }
